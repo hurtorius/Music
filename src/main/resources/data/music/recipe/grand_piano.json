@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "NWN",
+    "S S"
+  ],
+  "key": {
+    "C": "minecraft:black_concrete",
+    "N": "minecraft:note_block",
+    "W": "minecraft:white_concrete",
+    "S": "minecraft:stick"
+  },
+  "result": { "id": "music:grand_piano", "count": 1 }
+}

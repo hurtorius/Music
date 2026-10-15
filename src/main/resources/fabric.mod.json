@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "music",
+  "version": "${version}",
+  "name": "Music",
+  "description": "A grand piano in your world. play it yourself, with a real MIDI keyboard, or let it play by itself.",
+  "authors": [
+    "Hurtorius"
+  ],
+  "contributors": [
+    "Piano samples: Salamander Grand Piano V3 by Alexander Holm (CC BY 3.0)"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/music-hurtorius",
+    "sources": "https://github.com/hurtorius/Music",
+    "issues": "https://github.com/hurtorius/Music/issues"
+  },
+  "license": [
+    "MIT",
+    "CC-BY-3.0"
+  ],
+  "icon": "assets/music/icon.png",
+  "environment": "*",
+  "mixins": [
+    "music.mixins.json"
+  ],
+  "entrypoints": {
+    "main": [
+      "org.hurtorius.music.Music"
+    ],
+    "client": [
+      "org.hurtorius.music.client.MusicClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api-base": ">=1.0.5",
+    "fabric-lifecycle-events-v1": ">=2.6.15",
+    "fabric-key-binding-api-v1": ">=1.1.7",
+    "fabric-message-api-v1": ">=6.1.12",
+    "fabric-networking-api-v1": ">=5.1.6",
+    "fabric-rendering-v1": ">=16.2.10",
+    "fabric-item-group-api-v1": ">=4.2.36",
+    "fabric-object-builder-api-v1": ">=21.1.40",
+    "fabric-resource-loader-v1": ">=1.0.10",
+    "fabric-transitive-access-wideners-v1": ">=7.1.0"
+  },
+  "breaks": {
+    "fabric-api": "<0.141.6"
+  }
+}

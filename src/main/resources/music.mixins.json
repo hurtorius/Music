@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "package": "org.hurtorius.music.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerMixin"
+  ],
+  "client": [
+    "client.DestructionProgressAccessor",
+    "client.AvatarRendererMixin",
+    "client.CameraMixin",
+    "client.ClientLevelMixin",
+    "client.MultiPlayerGameModeMixin",
+    "client.ItemInHandRendererMixin",
+    "client.PlayerModelMixin",
+    "client.LibraryMixin",
+    "client.MinecraftMixin",
+    "client.IntegratedServerMixin",
+    "client.GuiMixin",
+    "client.ChatComponentAccessor",
+    "client.ChatListenerInvoker",
+    "client.SoundManagerAccessor",
+    "client.SoundEngineAccessor",
+    "client.SoundEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

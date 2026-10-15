@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "music:item/grand_piano",
+    "model": { "type": "music:grand_piano" }
+  }
+}

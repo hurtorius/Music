@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bach-prelude-c",
+    "file": "bach-prelude-c.mid",
+    "name": "Prelude in C, BWV 846",
+    "composer": "J. S. Bach"
+  },
+  {
+    "id": "beethoven-fur-elise",
+    "file": "beethoven-fur-elise.mid",
+    "name": "Für Elise, WoO 59",
+    "composer": "L. v. Beethoven"
+  },
+  {
+    "id": "satie-gymnopedie-1",
+    "file": "satie-gymnopedie-1.mid",
+    "name": "Gymnopédie No. 1",
+    "composer": "E. Satie"
+  },
+  {
+    "id": "chopin-prelude-e-minor",
+    "file": "chopin-prelude-e-minor.mid",
+    "name": "Prelude No. 4, E minor",
+    "composer": "F. Chopin"
+  },
+  {
+    "id": "chopin-prelude-c-minor",
+    "file": "chopin-prelude-c-minor.mid",
+    "name": "Prelude No. 20, C minor",
+    "composer": "F. Chopin"
+  },
+  {
+    "id": "joplin-entertainer",
+    "file": "joplin-entertainer.mid",
+    "name": "The Entertainer",
+    "composer": "S. Joplin"
+  }
+]

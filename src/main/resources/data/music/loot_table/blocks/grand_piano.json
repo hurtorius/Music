@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "music:grand_piano",
+          "functions": [
+            { "function": "minecraft:copy_components", "source": "block_entity", "include": [ "music:piano" ] }
+          ]
+        }
+      ],
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" },
+        { "condition": "minecraft:block_state_property", "block": "music:grand_piano", "properties": { "part": "1" } }
+      ]
+    }
+  ],
+  "random_sequence": "music:blocks/grand_piano"
+}
